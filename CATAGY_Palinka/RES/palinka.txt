@@ -1,0 +1,14 @@
+ Egy pálinkáz jellemez:
+
+    alkoholfoka: egész szám (30-87)
+    gyümölcs: szilva, barack, dió, körte, stb, nem lehet null, minimum 3 betû, maximum 20 betû
+    mennyiség: egész szám, 0-50, deciliterben
+    készítés éve: egész szám, 2000 .. aktuális év (DateTime.Now.Year adja meg az aktuális évet))
+    ára: 50-1000 ft/deciliter
+
+Készítsünk fõprogramot:
+
+    pálinkák listáját készíti el, 20 db pálinka, random adatokkal,
+    meghatározza az össz pálinka mennyiséget (átszámolja literbe),
+    random választ egy pálinkt a listáról, és megisszuk a felét, a bevételt számoljuk, 50 ismétlés,
+    kiírjuk mennyi bevétel jött össze.
